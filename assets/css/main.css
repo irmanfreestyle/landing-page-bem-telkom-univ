@@ -1,0 +1,66 @@
+/* RESET */
+a:hover {
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 20px;
+}
+
+.red-line {
+  width: 55px;
+  height: 2.5px;
+  background: #FF0000;
+  margin: auto;
+}
+.red-line.left {
+  margin: 0 !important;
+}
+
+.text-main {
+  color: #FF0000 !important;
+}
+
+.card {
+  border: none !important;
+}
+.card-title {
+  height: 70px;
+}
+
+
+/* NAVBAR */
+.nav-item a {
+  font-size: 20px;
+}
+.navbar-collapse.show .nav-item.active a, .nav-item.active a {
+  color: #FF0000 !important;
+}
+.navbar-collapse {
+  transition: 0.2s;
+}
+.navbar-collapse.show {
+  background: white !important;
+}
+.navbar-collapse.show a {
+  color: black !important;
+}
+#telkom-nav .navbar {
+  background: transparent !important;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+  z-index: 100;
+}
+
+#header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
