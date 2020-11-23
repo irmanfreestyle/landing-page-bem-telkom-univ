@@ -54,6 +54,17 @@ p {
   padding-top: 30px;
   z-index: 100;
 }
+.proker_new .nav-item a {
+  color: black !important;
+}
+.proker_new .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.proker_new .navbar-toggler {
+  border-color: #FF0000;
+}
+
+
 
 #header {
   background-position: center;
